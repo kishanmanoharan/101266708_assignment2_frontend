@@ -1,5 +1,15 @@
+html {
+  min-height: 100vh;
+}
+
 .App {
   text-align: center;
+  background-color: #212529;
+  color: #fff;
+  min-height: 100vh;
+  min-width: 90vw;
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
@@ -28,11 +38,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  /* margin: 8px; */
+  border-radius: 16px;
+}
+.navbar-container {
+  padding: 8px;
+}
+
+.dark-bg {
+  background-color: #212529;
+  color: #fff;
+}
+
+input {
+  max-width: 50vw;
 }
