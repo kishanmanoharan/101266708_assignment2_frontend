@@ -20,18 +20,34 @@ export default function Info(props) {
         >
           <thead>
             <tr>
-              <th>ID</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Email</th>
+              <th>
+                <h5>ID</h5>
+              </th>
+              <th>
+                <h5>First Name</h5>
+              </th>
+              <th>
+                <h5>Last Name</h5>
+              </th>
+              <th>
+                <h5>Email</h5>
+              </th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>{employee._id}</td>
-              <td>{employee.firstname}</td>
-              <td>{employee.lastname}</td>
-              <td>{employee.emailId}</td>
+            <tr style={{ fontWeight: 300 }}>
+              <td>
+                <h4>{employee._id}</h4>
+              </td>
+              <td>
+                <h4>{employee.firstname}</h4>
+              </td>
+              <td>
+                <h4>{employee.lastname}</h4>
+              </td>
+              <td>
+                <h4>{employee.emailId}</h4>
+              </td>
             </tr>
           </tbody>
         </Table>

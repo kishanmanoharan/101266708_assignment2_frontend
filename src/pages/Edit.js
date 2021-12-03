@@ -27,16 +27,10 @@ export default function Edit(props) {
     event.preventDefault();
 
     const data = {
-      method: "PUT",
-      body: {
-        _id: id,
-        firstName: first,
-        lastName: last,
-        emailId: email,
-      },
-      headers: {
-        type: "application/json",
-      },
+      _id: id,
+      firstName: first,
+      lastName: last,
+      emailId: email,
     };
 
     axios

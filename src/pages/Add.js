@@ -22,15 +22,9 @@ export default function Add() {
     event.preventDefault();
 
     const data = {
-      method: "POST",
-      body: {
-        firstName: first,
-        lastName: last,
-        emailId: email,
-      },
-      headers: {
-        type: "application/json",
-      },
+      firstName: first,
+      lastName: last,
+      emailId: email,
     };
 
     axios

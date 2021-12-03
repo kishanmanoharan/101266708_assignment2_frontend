@@ -63,7 +63,7 @@ export default function Home() {
         >
           <thead>
             <tr>
-              <th>ID</th>
+              {/* <th>ID</th> */}
               <th>First Name</th>
               <th>Last Name</th>
               <th>Email</th>
@@ -73,7 +73,7 @@ export default function Home() {
           <tbody>
             {data.map((employee) => (
               <tr key={employee._id}>
-                <td>{employee._id}</td>
+                {/* <td>{employee._id}</td> */}
                 <td>{employee.firstname}</td>
                 <td>{employee.lastname}</td>
                 <td>{employee.emailId}</td>
