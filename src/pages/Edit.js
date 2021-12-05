@@ -6,7 +6,7 @@ import {
   FormControl,
   Alert,
 } from "react-bootstrap";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -15,7 +15,7 @@ export default function Edit(props) {
   const employee = props.location.state;
   console.log(employee);
 
-  const [id, setId] = useState(employee._id);
+  const [id] = useState(employee._id);
   const [email, setEmail] = useState(employee.emailId);
   const [first, setFirst] = useState(employee.firstname);
   const [last, setLast] = useState(employee.lastname);

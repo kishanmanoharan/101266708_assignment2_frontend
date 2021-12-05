@@ -1,5 +1,4 @@
 import { Nav, Navbar, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 const KNavbar = () => (
   <div className="navbar-container">

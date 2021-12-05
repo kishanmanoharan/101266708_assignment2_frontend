@@ -1,12 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-  useLocation,
-  Redirect,
-} from "react-router-dom";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
 import KNavbar from "./components/KNavbar";
@@ -26,9 +18,6 @@ function App() {
         <Route exact path="/edit" component={Edit} />
         <Route exact path="/add" component={Add} />
         <Route exact path="/delete" component={Delete} />
-        {/* <Redirect from="*" to="/">
-            <Home />
-          </Redirect> */}
       </Router>
     </div>
   );
